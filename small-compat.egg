@@ -1,9 +1,7 @@
 ((author "Konstantin Astafurov")
- (synopsis "Alias (scheme small) to (scheme base)")
+ (synopsis "Aliases (scheme small) to contain all the R7RS modules")
  (version "0.0.0")
  (license "unlicense")
  (category lang-exts)
  (dependencies r7rs)
- (component-options
-  (csc-options "-d0" "-O2" "-X" "r7rs" "-R" "r7rs"))
- (components (extension scheme.small (source "small.sld"))))
+ (components (extension scheme.small)))
